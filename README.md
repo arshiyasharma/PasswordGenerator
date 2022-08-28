@@ -9,5 +9,3 @@ PURPOSE OF PROJECT: To generate a password that
 VERSION or DATE: 28th August 2022 | 5.0.2a
 
 HOW TO START THIS PROJECT: This project was coded in java and compiled on BlueJ :)
-
-### By Arshiya Sharma
