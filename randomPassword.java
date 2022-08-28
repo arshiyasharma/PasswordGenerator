@@ -109,6 +109,7 @@ public class randomPassword
                     continue;
                 case 2:
                     loop=false;
+                    obj.sc.close();
                     System.out.print("\nThanks for using our password generator :)\n-Arshiya Sharma");
                     break;
                 default:
