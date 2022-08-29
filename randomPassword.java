@@ -9,7 +9,7 @@ public class randomPassword
     {
         int sum=0;
         password_length = (int)(8+(Math.random()*8)); //Calculates length of password
-        System.out.print("\fEnter your prefrence for-\n1.To lower case\n2.Random\n->");
+        System.out.print("Would you give preference to-\n1.Lower Case characters\n2.Random characters\n->");
         byte pref=sc.nextByte();
         if(pref==1) //gives prefrence to lower case by allowing a wider probability of getting a higher number of characters
         {
@@ -31,7 +31,12 @@ public class randomPassword
             System.out.println("lc:"+ lc +" uc: "+uc+" dig: "+dig+" sp: "+ sp);
         }
         else
-            System.out.println("Wrong Input.");
+        {
+            System.out.println("Wrong Input. Try again.\n");
+            String ar[]={};
+            main(ar);
+            System.exit(0);
+        }
     }
     char[] generateChar() 
     {
@@ -103,6 +108,7 @@ public class randomPassword
             System.out.println("\n------------------------");
             System.out.print("Do you want to generate another password?\n1.Yes\n2.No\n->");
             byte choice=obj.sc.nextByte();
+            System.out.println();
             switch(choice)
             {
                 case 1:
@@ -110,10 +116,10 @@ public class randomPassword
                 case 2:
                     loop=false;
                     obj.sc.close();
-                    System.out.print("\nThanks for using our password generator :)");
+                    System.out.print("\nThanks for using our password generator :)\n-Arshiya Sharma and Keya Aggarwal");
                     break;
                 default:
-                    System.out.print("Invalid input. Try again.");
+                    System.out.print("Invalid input. Try again.\n\n");
             }
         }
     }
