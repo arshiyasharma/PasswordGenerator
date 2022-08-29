@@ -110,7 +110,7 @@ public class randomPassword
                 case 2:
                     loop=false;
                     obj.sc.close();
-                    System.out.print("\nThanks for using our password generator :)\n-Arshiya Sharma");
+                    System.out.print("\nThanks for using our password generator :)");
                     break;
                 default:
                     System.out.print("Invalid input. Try again.");
@@ -118,4 +118,4 @@ public class randomPassword
         }
     }
 }
-//By Arshiya Sharma
+//By Arshiya Sharma and Keya Aggarwal
