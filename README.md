@@ -4,10 +4,8 @@
 
 PROJECT TITLE: Strong Password Generator
 
-PURPOSE OF PROJECT: To generate a password that
-
 VERSION or DATE: 28th August 2022 | 5.0.2a
 
-This project was coded in java and compiled on BlueJ :]
+This project was compiled on BlueJ :]
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
